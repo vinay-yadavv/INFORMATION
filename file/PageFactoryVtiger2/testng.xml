@@ -1,0 +1,46 @@
+<suite name="VTigerAutomation" verbose="1"  parallel="tests" threadcount="2">
+
+	<test name="VTigerFrontEndTestSet">
+        <groups>
+         <run>
+           <exclude name="5"></exclude>
+           <include name="5"></include>
+           
+          </run>
+        
+        </groups>
+        
+        <parameter name="Browser" value="firefox" />
+        
+        <parameter name="usename" value="admin" />
+        
+        <parameter name="password" value="admin" />
+        
+        
+		<classes>
+			<class name="com.evs.vtiger.testcases.ValidateLeadsFunctionality"/>
+		  <class name="com.evs.vtiger.testcases.SampleTest"/>
+		  
+<!-- 		  <10>  -->
+		  
+			
+		</classes>
+
+	</test>
+
+	<test name="VTigerBackEndTestSet">
+
+        <parameter name="Browser" value="Chrome" />
+
+
+		<classes>
+			<class name="com.evs.vtiger.testcases.X"/>
+		  <class name="com.evs.vtiger.testcases.Y"/>
+		  
+<!-- 		  <10>  -->
+		  
+			
+		</classes>
+
+	</test>
+</suite>

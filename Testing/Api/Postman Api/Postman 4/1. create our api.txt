@@ -1,0 +1,38 @@
+cmd      ---    npm install -g json-server      -----     install json server                                                             
+
+firstly we create a JSON formet in notepad                                                                                                       
+
+C:\Users\DELL\Documents>json-server info.json   -----  using this command we find a dummy URL
+
+copy url in the command prompt  then go to postman run GET method                                                     
+
+copy url in the command prompt  then go to postman run GET method. single data given path '/id'   
+
+copy url in the command prompt  then go to postman run POST method we given a body                      
+
+
+ 
+***************************************************************
+
+Q> how to create own API's(Fake API's)
+1> Install Node.js
+2> npm comes with node.js
+3> install json-server
+      cmd -   npm install -g json-server          
+4> we create json formate data in notepad
+5> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

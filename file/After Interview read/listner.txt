@@ -1,0 +1,26 @@
+	                           LISTENER
+                               ********
+
+Q.>what is a listener ?
+-->It is a part of testNG
+   it is a provide TestNG report and if
+   our testCase failed then by using listener retry run out testCase
+   there are multiple interFace just like ITestListner,IReterAnalyzer
+   and IReporter
+
+************************
+a.>ITestListner=
+1.> we create a our class and implements ITestListner
+2.> in ITestListner override all method 
+3.> it is a provide a massage.
+
+
+b.>IRetryAnalyzer=
+1.> we create a our class and implements IReterAnalyzer.
+2.> in IRetryAnalyzer all method override 
+3.> it is a again to again run out testCase
+
+c.>IReporter=
+1.> we create a our class and implements IReporter
+2.> in IReporter override all method 
+3.> it is provide proper result.

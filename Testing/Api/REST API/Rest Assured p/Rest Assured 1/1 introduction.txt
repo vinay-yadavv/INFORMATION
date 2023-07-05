@@ -1,0 +1,21 @@
+API Testing using RestAssured
+BDD (Behevior Driven Development Approach)
+*******************************************************
+Setup Environment
+*********
+1> Java
+2> Eclipse
+3> Maven
+4> TestNG
+*******************************************************
+Rest Assured Dependencies
+**********
+1> Rest Assured   ---
+2> Json-scnema-validator  --
+3> Json-Path
+4> XML-path
+5> TestNG
+6> Java hamcrest
+7> hamcrest-core
+8> hamcrest-library
+******************************************************

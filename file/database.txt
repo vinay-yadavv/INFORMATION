@@ -1,0 +1,63 @@
+quiry- SELECT, UPDATE, INSERT, DELETE
+
+1> SELECT * FROM tablename
+2> SELECT Columnname FROM tablename
+3> SELECT Columnname FROM tablename WHERE firstname='vinay' AND LASTNAME='yadav'
+4> SELECT * FROM tablename WHERE firstname='vinay' OR LASTNAME='yadav'
+5> WHERE not firstname='vinay'
+
+sorting- asd=smoll data, dese=big data.
+
+6> SELECT * FROM tablename ORDER BY firstname
+7> SELECT * FROM tablename ORDER BY firstname DESE
+8> INSERT INTO tablename(firstname,lastname) VALUES('VINAY','YADAV')
+9> INSERT INTO tablename VALUES('VINAY','YADAV')
+************************************************
+concatenate
+
+10> SELECT * FROM tablename ORDER BY Columnname ASC limit 3;
+11> SELECT * FROM tablename WHERE Columnname>=0 ORDER BY Columnname ASC limit 3;
+12> select min\max(columnname) FROM tablename
+13>
+14> SELECT columnname FROM tablename ORDER BY DESE\ASD LIMIT 3
+
+alias--
+--15> SELECT columnname from (select columnname FROM TABLENAME order by columnname Desc limit 2)as revenueSecond ORDER BY columnname ASC limit 2
+15.1> SELECT MIN(columnname) from (select columnname FROM TABLENAME order by columnname Desc limit 2)as revenueSecond<acording name>
+15.2> Select Top 1 FROM (SELECT TOp 2 columnname order by asc) AS mytable order BY ASC
+********
+16> Select count(Coulmname) FROM tablename
+17> Select count(Coulmname) FROM tablename WHERE coulmname>=123
+18> SELECT SUM(coulmname) FROM tableName WHERE coulmname>12000
+19> Select AVG(coulmname) FROM tableName 
+20> Select AVG(coulmname) FROM tableName WHERE coulmname>12000
+
+LIKE
+****
+%=any carecter and any occurance
+
+21> SELECT * FROM columname where coulmname LIKE 'd'
+22> SELECT * FROM columname where coulmname LIKE '%dog'
+23> SELECT * FROM columname where coulmname LIKE '%dog%'
+24> SELECT * FROM columname where coulmname LIKE '%i%a%'      ----vinay
+25> SELECT * FROM columname where coulmname LIKE '__vtiger%'
+26> SELECT * FROM columname where coulmname LIKE '%__vtiger%'
+
+opretor=and, or, not, like
+
+vidio 5 start
+nameframe-IBM
+*********************DB-6***********************
+27> SELECT Distinct columname FROM Tablename
+28> SELECT Distinct columname,columname FROM Tablename
+29> SELECT Count(Distinct columname) FROM Tablename
+******20min******
+******
+
+
+
+
+
+
+
+

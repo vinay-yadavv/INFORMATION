@@ -1,0 +1,26 @@
+1. git config --global user.name "vinayyadav"
+2. git config --global user.email "yv23@gmail.com"
+3. git init
+4. git add "filename"
+5. git add .
+6. git add -A
+7. git commit
+8. git commit -m
+*****************************
+9.  git commit -a -m "commited by vinay"
+10. git log
+11. git log -p -1
+12. git branch "branchName"
+13. git branch
+14. git checkout "branchName go to branch"
+15. git checkout -b "branchName"
+16. git branch -m "branchname"
+17. git branch
+***************************
+18. git remote add remotename repositorepath
+19. git remote
+20. git push remotename branchname
+21. git remote -v
+22. git clone
+
+******************push**********************

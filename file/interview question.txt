@@ -1,0 +1,13 @@
+1.>deferent beetween---error,bug,defect
+
+2.>implicitly and Explicitly and fluwent Wait
+
+3.>snapshort
+
+4.>ForEach loop
+
+5.>String and StringBuffer and String Builder
+
+6.>Set and List
+
+7.>How to write profesinal mail

@@ -1,0 +1,40 @@
+> skrol
+> kukumber and BDD
+> wait
+
+> TestNG
+
+> Log4j
+
+
+> jsion
+
+> junit & nunit
+
+> selenium 3 vs selenium 4
+
+> kapcha
+
+> ocr--optical congnitive Recognition
+
+> validation
+
+> i.e. we are maintain framework and we are 5 team then we
+  how to concinate our code.
+A>git
+
+> Str
+
+*****
+clear
+*****
+child c=new parent();---downCasking
+parent p=new child();--upCasting
+
+
+> titcat trace
+
+
+
+
+

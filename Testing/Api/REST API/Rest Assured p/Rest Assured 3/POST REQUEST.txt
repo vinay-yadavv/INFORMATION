@@ -1,0 +1,19 @@
+
+
+How to send POST Request (Customer API)
+UTL  --- https://reqres.in/api/users
+
+Body********
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+****************************************************
+Validations:
+*******
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "92",
+    "createdAt": "2023-01-27T01:01:22.980Z"
+}

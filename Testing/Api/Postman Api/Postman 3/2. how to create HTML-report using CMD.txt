@@ -1,0 +1,24 @@
+
+download----> node.js
+*******************
+npm install -g newman   ---> install newman plagin
+*******************
+    (go to your file using command)
+newman run VinayFirstWorkForApi.postman_collection.json    --->run your collection used cmd 
+*******************
+npm install -g newman-reporter-html         -----> install html reporter   
+*******************
+newman run VinayFirstWorkForApi.postman_collection.json -r html   --->genrate html report
+
+***********************************
+***********************************
+1. Install Node.js (npm)
+2. Install newman
+       	npm install -g newman
+3. Export collection and then run from command prompt
+
+How many ways we can run collection through command prompt
+
+cmd -  newman run <collectionExportFileName.json>
+
+cmd -  newman run <collectionExportFileName.json> -r html

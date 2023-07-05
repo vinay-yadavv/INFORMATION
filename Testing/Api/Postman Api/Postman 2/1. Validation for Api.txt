@@ -1,0 +1,38 @@
+
+first GET request ->send button klick ->go to tests  ---he give result in 'TestResult'
+************************************************************
+1> tests["validattion status code"] = responseCode.code=='200';
+
+2> //tests["verify the firstname"] = responseBody.has("Michael");
+
+3> tests["verify the lastname"] = responseBody.has("Lawson");
+
+
+4> //tests["verify the no of 2"] = responseBody.has("2");
+
+5> var response=JSON.parse(responseBody);
+tests["verify the total_pages"]=response.total_pages=='2';
+
+tests["verify the email"]=response.data[0].email=="michael.lawson@reqres.in";
+
+*******************validation for header***********************
+
+//JAVA SCRIPT 
+pm.test("verify the Content-Type",function(){
+    pm.response.to.be.header("Content-Type", "application/json");
+});
+//verify the status
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+//verify the time in ms(milliseconds)
+pm.test("Response time is less than 200ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(200);
+});
+
+//verify the content type is present or not
+pm.test("Content-Type is present", function () {
+    pm.response.to.have.header("Content-Type");
+});
+

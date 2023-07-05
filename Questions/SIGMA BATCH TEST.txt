@@ -1,0 +1,46 @@
+SIGMA
+
+1- Write seven principle name, explain defect clustering and Pesticides Paradox.
+
+2- Explain Smoke And Sanity Testing ?
+
+3- Explain BVA and ECP?
+
+4- What is Regression testing
+
+5- Write a test case in Login Funtionality.
+
+6- What is Software testing, Why its Required?
+
+7- What is The Defect??
+
+8-What is the Priority and Severity,Explain High Priority and High Severity?
+
+9- Difference between Automation And Manual Testing?
+
+10- What is STLC ?
+
+11- JDK vs JVM vs JRE
+
+12- How to Handle Drop-Down in selenium.
+
+13- Explain Relative and Absolute Xpath?
+
+14 - Difference between  Array and ArrayList??
+
+15- How many types of Locator in selenium Please Write Down.
+
+16- How to parfrom Hower-over and WriteClick.
+
+17-How to verify RadioButton and TextBox enable or not?
+
+18-How to varify you are on the home page?
+
+19-Static vs Non-static?
+
+20-Why main method is static?
+
+
+
+
+

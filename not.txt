@@ -1,0 +1,16 @@
+public void methodName(Method mathod){ }
+
+   //class, method, object
+
+**********************
+
+(ITestResult result)
+result.getStatus();
+ITestResult.FAILURE();
+
+***************************
+String tcname=method.getname();
+util.takeScrenShort(Tcname);
+
+******************************
+thread-count="5"	parallel="methods"

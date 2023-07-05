@@ -1,0 +1,3 @@
+Smoke Testing, Sainty Testing, Retesting, Regression, SDLC, STLC, Priority, Severity, Bug Life cycle, 
+
+Verification, Validation, QA, QC, Agile, 

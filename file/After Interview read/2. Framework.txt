@@ -1,0 +1,104 @@
+                          **Framework**
+                          *************
+                          *************
+
+1.> it is a design pattern in general
+2.> by using framework we arrange{safe} our code
+3.> we maintain our code by using the framework
+4.> by using framework we make our project in easy way
+
+5.> framework is a concept dising our code by consuming ,redundancy
+    and make our code reusable
+
+6.> we make our code costmize and easly to use
+
+7.> in future need to change then we change  easly
+8.> we can use POM maintaining any type of framework.
+8.> basically our Framework there are three layer 
+
+     1. genericMethod Layer
+     2. pageWise Layer
+     3. testCase Layer
+**************************             ******************************
+                         genericMethod
+                         *************
+1.> This is also called generic Layer and webutil Layer.
+2.> by using webdriver method we create a our generic method.  
+3.> by using generic layer we make our testing easy. 
+4.> we use webdriver method and give the our method name.
+5.> we make customize our method and saify to use.---
+6.> inside that we write methods of actions class, select class,
+     webdriver method we use.
+7.> in my generic layer buity part in the method we use try catch
+    block any bug is find easily.
+
+***************************         *********************************
+                           pageWise 
+                           ********
+
+1.> we use pageWise layer for maintaining our code in simple and easy way.
+    it is a easy to understand, easy to maintain and easy to
+    track also when any bug is come.
+2.> we divid our project into pages wise class and package according
+    to use.
+3.> in pageWise layer we write  code by using webutil layer.
+4.> we execute the pageWise layer inside the testcase layer.
+    by creating the object of  pageWise class.
+5.> here we make separate object repository class.
+    there are we will make @Findby type locatore- and 
+    protected type webelement type variable 
+  ////
+constructor
+**********
+1> we are create all classes separate-separate constructor becouse
+   our driver is null so we use constructor then -inscice- value                                                
+////
+
+                     pagefactory
+                     ***********
+
+4.> consume redundency :-we remove redundancy and arrange our code.
+5.> reusability :-we make a separate method for consuming 
+                  redundancy and make our code reusable
+6.> maintainbility :- it is easy to maintain. in this we maintain our
+                      code pageWise 
+
+7.> monularity :-in monularity if in future any changes in desing 
+                 pattern then we make changes very easly 
+
+
+
+11.><---> traceability :-  It is easy to trace if any bug in our cript then
+    we make changes  though going on that page and make changes on 
+   them in one place there is not need to make changes on make places.
+12.><---> understabitity :- It is easy to understand for non tachnical parson also.
+        if then look our code is arraung page wise.
+        then they easily to understand where is non work is going on.
+
+                       
+
+**********************              *******************************
+                      TestCase Layer
+                      **************
+1.> It is also knows as runner class.
+2.> we can call the all pageWise method inside the testcase layer for
+    executing the method
+3.> we can create object of generic layer inside the tastcase layer.
+    for initializing the all the pages. where we used generic layer method.
+4.> if we wants to called the method of pageWise layers then we need to create
+    of the object because we create all the method ass non-static.
+5.> in testcase layer we call the validetion to test by the create 
+    the object that the class.+-+-+-+
+6.> when we create object of the class then we need to pass an argument as
+    a webUtil type and we pass the argument of util and initialize
+    all pages by constructor.
+*******************************************************************
+                     TestNG
+                    *******
+                    Listner
+                    *******
+
+                   Log4j
+                   *****
+
+                   

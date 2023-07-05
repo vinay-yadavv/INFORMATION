@@ -1,0 +1,14 @@
+1. Requirement Analysis -->gathering requirment from clint
+************************************************
+2. Test Plan Creation  -->test lead createing test plan document
+                                        * cost of entire project
+                                        * entery & exit critaria
+                                        * scope 
+*********************************
+3. Envionment Setup  -->
+
+*********************************
+4. Test Case Execution  -> testor will be execution test case
+********************************
+5.  Test Closure  -->* created test closure report document.
+                                   * Requirment ,software design. defect report.                               

@@ -1,0 +1,27 @@
+11 locators                  *
+******************************
+id
+driver.findElement(By.id("ID value"));
+******
+className
+driver.findElement(By.className("className value"));
+******
+name
+driver.findElement(By.name("name value"));
+******
+linkText
+driver.findElement(By.linkText("Text"));
+********
+partialLinkText
+driver.findElement(By.partioalLinkText(haf Text));
+*******
+tagname
+*
+WebElement we=driver.findElement(By.tagName("tagname"))
+System.out.println(we);
+---Generally tagname loctor used multiple WebElements
+*****
+xpath
+
+*****
+cssSelector

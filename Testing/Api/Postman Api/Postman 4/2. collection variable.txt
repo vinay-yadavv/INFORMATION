@@ -1,0 +1,2 @@
+{{in this side we create varible}} we go to collection '3 .'  --> edit   --->   VARIABLE - we write varible name
+                                                                                    CURRENT...  - we passed variable value

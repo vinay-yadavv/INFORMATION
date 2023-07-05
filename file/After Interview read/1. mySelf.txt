@@ -1,0 +1,21 @@
+I am Vinay from varanasi. i have completed BCA in 2019. 
+I am having araund 2.6 year of experience in the IT industry.
+
+currently, i am working with web view salution. 
+it is sarvice besed organization.
+
+jumia is my current project. 
+my roles and responsibility into all the testing activity may be 2.6 year back i joined this company.
+
+I do autometion testing, to automete any testcase. 
+I review manual testcase and marge then if required. 
+i convert these manual testcase into automation sceript.
+
+In automation part i involved in:- creation, execution and maintenance of automation scripts.
+
+In a sprint, i take part in sprint planning meeting, sprint review meeting, 
+sprint retrospective meeting, daily scrum meeting.
+
+I am having prety much knowage of Jira and Q.C Team of automation. 
+I am having exposer on selenium webDriver with Java. 
+I am having same basic expaies on TestNG, POM, POI also.

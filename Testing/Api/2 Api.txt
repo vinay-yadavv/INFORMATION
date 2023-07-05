@@ -1,0 +1,34 @@
+
+*>jsion-------------
+{
+
+"username" : "vinay yadav",
+"password" : "vinay@123",
+"Age"      : "21"  
+
+}
+***********************
+*> I have two tools > 1) swagger  2) postman
+1> swagger--we are use swagger becouse API dacumetion.
+2> postman allmost use run api
+
+************************
+*> we are not create apis.it is create developers
+*> developers make a apis . we write know documentetion in swagger.
+*> developer give us swagger "URL"
+
+***********************
+download postman--->we are going to chrome -> saurch download postman for windows
+---> open a link --> click on 'launch postman' butten
+
+********************************
+postman is webBesed Application or desktopBesed application
+
+***********
+2**********
+***********
+*> 'base url' and 'end point' and 'query parameter'
+*> in this get request use of 'query parameter'
+
+****************************
+*> mostly we are using method Get,Put,Post,Patch,Delete

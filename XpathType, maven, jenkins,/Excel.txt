@@ -1,0 +1,39 @@
+1> start excel- window + R  -  type excel enter
+2> ribbon
+3> ClipBoard
+4> ALT + V + Z -zoom in / zoom out   ()
+5> ANY formula use first "=" after that write formula
+6> ctrl + click > we live write all excel
+7> ctrl + click \/ we live last collum for excel
+8> ALT +Space + R minimize excel 
+9> ALT +Space + X maximize excel
+***********let's work on data**********
+10> ctrl + w   ---close open workbook
+11> ctrl + n   ---new workbook
+12> ctrl + click and drag with mouse
+14> ALT + H +O +I  ---Autofit column width
+***************************************
+15> Atl + = -----Autosum shortcut
+16> Alt +h + u ---is common
+************conditional formatting**************
+17> Conditional formatting -> highlight cell rules -> select any one
+********INSERT / DELETE = ROW/COLUMN***********
+18> ctrl + + =inser row / column
+19> ctrl + - =delete row/column
+20> alt + i + c =insert column
+21> alt + i + r =insert row
+\|/
+******convert data into table***********
+22> 57min
+
+
+
+
+
+
+
+
+
+
+
+

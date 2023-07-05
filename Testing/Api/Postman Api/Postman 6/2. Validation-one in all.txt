@@ -1,0 +1,60 @@
+//Multiple Assertions
+pm.test("verify the multiple assrtion",function(){
+responseJson=pm.response.json();
+pm.expect(responseJson.data.first_name).to.eql("Charles");
+pm.expect(responseJson.data.last_name).to.eql("Morris");
+pm.expect(responseJson.support.url).to.eql("https://reqres.in/#support-heading");
+});
+
+//////////////////////////////////////////////////////////
+
+//match value present or not
+pm.test("Body contains strings",function(){
+pm.expect(pm.response.text()).to.include("charles.morris@reqres.in");
+});
+
+///////////////////////////////////////////////////////////////////
+
+//Verify status code.
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+
+//verify multiple status code.
+pm.test("verify multiple status code",function(){
+    pm.expect(pm.response.code).to.be.oneOf([200,201,400,500]);
+})
+
+
+/////////////////////////////////////////////////////
+
+//verify Response Time is less than 20ms
+pm.test("Response time is less than 20ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(50);
+});
+
+////////////////////////////////////////////////////////
+
+//verify Content-Type present or not in the headers
+pm.test("verify Content-Type present or not",function(){
+pm.response.to.have.header("Content-Type");
+});
+
+//verify content type value
+pm.test("verify Content-Type value",function(){
+pm.expect(pm.response.headers.get("Content-Type")).to.eql("application/json; charset=utf-8")
+});
+
+//////////////////////////////////////////////////////////
+
+//verify cookies name
+pm.test("verify cookies is present",function(){
+    pm.expect(pm.cookies.has("cookies_name")).to.be.true();
+})
+
+//verify cookies  value
+pm.test("verify cookies  value",function(){
+    pm.expect(pm.cookies.get("cookies name")).to.eql("cookies expected value");
+})
+

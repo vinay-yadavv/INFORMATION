@@ -1,0 +1,15 @@
+Serialization and deserialization
+__________________________
+Serialization 
+**************1> The Ptocess of writing state of an object to a file is called serialization. but
+                       strictly speaking it is the process of converting an object from java supported
+                       from to either file supported from OR network supported from.
+                  2> By using fileOutputStream and objectOutputStream classes we can achieve
+                       serialization.
+********************************
+De-Serialization
+******************1>The process of reading state of an object from a file is colled deSerialization.
+                           But Strictly Speaking it is the process of converting an object from either file
+                           OR network supported from into java supported from.
+                      2>By using FileInputStream and ObjectInputStream classes we can  achieve
+ 

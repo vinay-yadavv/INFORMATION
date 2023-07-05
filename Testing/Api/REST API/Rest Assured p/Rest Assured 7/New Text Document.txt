@@ -1,0 +1,9 @@
+API Testing using RestAssured
+BDD  -  Behevior Driven Development Approach
+________________________________________
+1> Verifying Single content in XML Response     
+2> Verifying Multiple content in XML Response      
+3> Verifying all the content in XML response in one go
+4> Find values using XML Path in XML response     
+5> Xpath with test() function                                             
+-----------------------------------------------------------------

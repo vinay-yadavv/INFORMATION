@@ -1,0 +1,4 @@
+go to collection ->click 3 dot -> select share  -> via API  ->
+ copy URL  ->  open cmd  ->  run command  -> newman run (past URL)
+
+

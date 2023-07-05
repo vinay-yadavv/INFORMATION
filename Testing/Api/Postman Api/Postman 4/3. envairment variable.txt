@@ -1,0 +1,2 @@
+1> go to see eyes click then click on add button ::: show 'VARIABLE'='pass variable Name'
+     and ahow 'CURRENT VALUE'='pass variable value' then we use variable name your response method.

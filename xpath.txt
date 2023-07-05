@@ -1,0 +1,58 @@
+xpath-Address of an element
+
+Type of Xpath:-1> Absolute xpath/fullXpath(starts from root node):-/html/body/div/table[2]/tbody/tr[2]/td[2]/form/table/tbody/tr[2]/td/table/tbody/tr[1]/td[2]/input
+               2> Relative/Dynamic/Customized Xpath
+******************************
+Absolute*******
+1> more accurate
+2> Risky to use
+
+dynamic********
+1> accurate
+2> Recommended to use
+
+********************************************************
+Xpath Syntax_1> //htmltag[@attribute='value']     --Attribute->ID,Class,Name
+               
+Xpath Syntax_2>   //input[@attribute='value' and @attribute='value']
+
+Xpath Syntax_3>   //input[@attribute='value' or @attribute='value']
+
+
+22222222222222222222222222222222222222222222
+
+Xpath Syntax_4>    //htmltag[starts-with(@attribute,'value')]
+
+Xpath Syntax_5>    //htmltag[ends-with(@attribute,'value')]
+
+33333333333333333333333333333333333333333333
+text()---link,hyperlink,text,logos/images
+
+Xpath Syntax_6>    //htmltag[text(),'value of text']
+
+
+contains---link,hyperlink,text,logos/images
+
+Xpath Syntax_7 >    //htmltag[contains(text(),'value of text')]
+
+Xpath Syntax_8 >    //htmltag[contains(@attribute,'Value')]
+
+444444444444444444444444444444444444444444
+    Q> one webelement have multiple xpaths
+Xpath Syntax_9>    //Parent-htmltag[@attribute='Value']/child::child-htmltag[casting/1]     
+
+Xpath Syntax_10>    //parent-htmltag[@attribute='Value']/following::brother-htmltag/child::htmltag
+
+
+Xpath Syntax_10>    //htmltag[@attribute='Value']/preceding-sibling::htmltag/child::htmltag
+
+Xpath Syntax_11>   //htmltag[@attribute='Value']/preceding::htmltag[@attribute='value']
+
+5555555555555555
+
+6666666666666666
+
+7777777777777777
+
+888888888888888
+

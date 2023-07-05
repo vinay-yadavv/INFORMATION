@@ -1,0 +1,28 @@
+1> create a imgur account
+**************
+1> UI
+2> Front end testing
+3> backend testing-->
+Ex. we prass the login button . get request in server-> this is frontEnd.
+    
+*************************************
+4> web besed application
+5> Event-->
+*************************
+6> what is ui testing?
+7> Application progrmming interface
+***************************
+8> saurch google sample jsion data
+9> json-java Script object notesion
+***********************
+10> xml
+<>-angular braket
+
+<Employee>
+<name value="vinay"></name>
+</Employee>
+*********************
+11> name ,age,address
+    vinay,21 ,mondh
+    sumit,22 ,bhadohi 
+

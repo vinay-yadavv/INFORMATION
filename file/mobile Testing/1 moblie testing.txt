@@ -1,0 +1,56 @@
+@>  What is Appium?
+1> Appium is an open-source tool for automating native,
+    mobile web, and hybrid applications on iOS mobile, Android mobile,
+    and Windows desktop platforms. Importantly, Appium is "cross-platform": 
+2> it allows you to write tests against multiple platforms
+    (iOS, Android, Windows), using the same API.
+
+***********************************************
+@> How does it work?
+1> Appium test script written in IDE will interact with the Appium
+   Server which is nothing but the node server with the specified
+   IP address and port number.
+2> Node server again passes the request to mobile devices or emulators
+   using the uiautomator or XCUITest as a JSON format.
+3> All the UI elements associated with the mobile application can
+   be controlled by using the appium client which is nothing
+   but the derived one of selenium.
+4> Note: Remember using Windows only Android can be automated
+   while in iOS both Android and iOS can be automated.
+
+*************************************************
+@> Installation and setup
+1> Install Java 8 and setup environment variable.
+2> Install Maven and setup environment variable.
+3> Install Android studio for android SDK packages.
+4> Setup android environment variable.
+5> Creating an emulator via android studio.
+6> Enabling Developer mode option in android phone.
+7> Install PDANet (universal driver) to connect with Android devices.
+8> Install Xcode, HomeBrew, Carthage, appium-xcuitest-driver for (Mac only).
+9> Install Appium via npm.
+10> Install Appium via installer.
+11> Install Appium Doctor.
+
+***********************************************
+@> What is ADB?
+1> Adb stands for Android Debug Bridge.
+2> It is a client server program which allows us to communicate
+   with an Android device or an Emulator using command line.
+     
+3> A client, which runs on our machine. We can invoke a client by issuing an adb command.
+4> A daemon, which runs as a background process on each emulator
+   or device instance. It by default runs on port number 5037
+5> A server, which runs as a background process on our machine. It manages communication between
+   the client and the adb daemon running on an emulator or device.Where is it located?
+6> After successful download of android sdk, the adb tools comes with SDK inside the platform-tools folder.
+   You can get the path using “which adb” command.
+
+
+
+
+
+
+
+
+

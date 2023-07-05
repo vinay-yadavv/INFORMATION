@@ -1,0 +1,105 @@
+
+
+  1. text()   ====>   inner text.  ===>  //tagname[text()='innertext']  
+
+  2.contains()====>  ===>  //tagname[contains(@attributename,Value)]
+                     ===>    contains me value ko pura likhna jaroori nahi hai. 
+                     ===> ex  ==//input[contains(@name,'ame')]
+     
+                   contains(String Attribute , string Value){
+                  
+                  }
+
+
+  3.starts-with ===>    //tagname[starts-with(@attribute,Value)]
+                ===>    //input[starts-with(@class,'small')]
+                ===>     starts-with me value ka starting word  rahna must hai.
+
+  4.last()      ===>   	//input[@class='small'][last()]
+ 
+*****************************************
+vinay yadav
+
+5. And ====>
+         syntax==> //tagName[@attributeName='attributeValue' and @attributeName='attributeValue']   		      //input[@class='small' and @type='password']
+
+6. OR===>
+	syntax==> //tagName[@attributeName='attributeValue' or @attributeName='attributeValue']   		         //td[@class='tabUnSelected' or @class='tabSelected']
+          
+            
+  ******************************************* 
+
+7.parent   ===> jo xpath chahiye pahale vo nikalna padega uske baad me uske parent ka xpath aage  dena padega
+
+           ===> 1. //xpath
+           ===> 2. //parent Xpath
+	   ===> 3. total xpath ==> 2+1
+           ===> 4. //parentTagName[@attribute='Value']//childTagName[@attribute='Value']
+    
+       ex  ===>//button[@type='submit']//span[text()='Login']
+
+
+ ******************************************* 
+
+   ====================        Parent         ===========================
+
+
+8.parent pe show karega =====>//div[@id='Sales_sub']/../../..
+
+
+9.parent pe show karega==>  //tagname[@attributeName='attributeValue']/parent::tagName.......
+ 	     //*[@name='user_password']/parent::td/parent::tr
+
+
+10.Ancestor(GrandFather / puravaj) ===>
+             //tagnam[@attributeName='attributeValue']/ancestor::tagName.......
+ 	      //*[@name='user_password']/ancestor::td[@class='small']
+
+************************
+
+11.Descendant(Santan)===>
+  			//tagname[@attributeName='attributeValue']/descendant::tagName
+			//td[@class='small']/descendant::input
+			//td[@class='small']/descendant::input[@name='user_password']
+
+
+*****************************************************
+
+
+**********************************************************************************************
+
+Sibling==>   A/B/C
+
+Only for B==>  B ka preceding-sibling  A.
+		B ka following-sibling  c.
+			
+12. Preceding-sibling==>
+syntax==>
+//tagName[@attributeName='attributeValue']/preceding-sibling::tagName[@attributeName='attributeValue']
+
+ex===>//input[@name='user_password']/parent::td/preceding-sibling::td   
+
+
+13. Following-sibling==>
+
+syntax==>
+//tagName[@attributeName='attributeValue']/following-sibling::tagName[@attributeName='attributeValue']
+//td[contains(text(),'User Name')]/following-sibling::td/descendant::input
+
+******************************
+1. text()
+2.contains()
+3.starts-with
+4.last()
+10.And
+11.OR
+
+5.parent
+6.parent pe show karega
+7.parent
+8.ancestor(GrandFather)(puravaj)
+9.descendant(Santan)
+
+
+12. preceding-sibling
+13. following-sibling

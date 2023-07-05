@@ -1,0 +1,37 @@
+1. NoSuchElementException:-1>fram,2>wrong xpath,3>page refrace
+                       
+2. indexOutOfBoundException:- we used array and we get value out of array
+
+3. SessionNotCreatedException:-1>varsion eisu
+
+4. StaleElementReferenceException:-our page reference
+
+5> ElementNotInteractableException:-
+
+6> WebDriverException:-*> driver not update *>
+
+7> FAILED CONFIGURATION:-our testng annotation fail E.X-@beforeSuite @Teat
+
+8> InputMismatchException	
+
+9> UndefinedStepException==>it is BDD exception.our step is not create.
+
+10> noCuchMethodExeption==>in framework we are useing methods chaining so
+                                                    we create cunstructor all pages then throw this exception.
+
+11> invalidSelectorException==>xPath syntex problem
+
+***************************************************
+12> ElementNotIntracteble==> our element is hidden
+
+13> ClassNotFoundException==>  //jdk or jre problem // i have same type of two jar then jvm canfuj
+
+14> NoSuchSessionException
+
+15> AssertionFailedError
+		
+16> java.net.SocketException==> driver issu:	jast like our system.setProperties issu	
+
+17> FileNotFoundException==> file not avaleble	
+
+18> IllegalArgumentException==>																																														

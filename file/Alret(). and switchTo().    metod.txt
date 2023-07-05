@@ -1,0 +1,54 @@
+@> alert() method
+---------->>>>
+1>     String cook = driver.switchTo().alert().getText();
+		System.out.println(cook);
+=========popup ka text nikal kar dega===============
+
+2>     driver.switchTo().alert().sendKeys("name");
+==========sapas our application throw a popun . this popup give a 'name or lastname'
+          we use this type of popup=================
+
+3>    driver.switchTo().alert().accept();
+===========we accept(ok) popup so we use this=======================
+
+4>    driver.switchTo().alert().dismiss();
+==========we cancel popup so we use this========================
+
+*******************************************************************
+@> switchTO() method
+
+1>  driver.switchTo().frame(0);---by handle iframe
+
+2>  driver.switchTo().frame("");---by handle iframe
+
+3>  driver.switchTo().frame(webElement frameElement);---by handle iframe
+
+3.1> driver.switchTo().parentFrame();
+
+4>  driver.switchTo().activeElement();
+
+5>  driver.switchTo().defaultContent();
+
+6>  driver.switchTo().newWindow(window typeHint);
+
+7>  driver.switchTo().window(String nameOrHandle);
+
+8>  driver.switchTo().toString();
+
+9>  driver.switchTo().notifyAll();
+
+10> driver.switchTo().notify();
+
+11> driver.switchTo().hashCode();---it is give the hashCode of current window ex-'987hgffr43rf45'
+
+12> driver.switchTo().equals("");---compaire our object.
+
+*********************************
+
+
+
+
+
+
+
+

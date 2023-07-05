@@ -1,0 +1,16 @@
+jenkins====
+
+saurrch-jankins dounlode 
+ext==.war
+
+dunlode-war file/ exe
+
+***********
+open cmd java -jar filrname.exe(war)
+
+port--?--prt ke thru tranjection=web
+
+we put uRL   `
+
+
+

@@ -1,0 +1,14 @@
+Q> how to handle iFrame.
+1> html==>body==>iframe
+
+
+2.> driver.switchTO.frame(int args);/(String args);/(webElement args);
+3.> driver.switchTo.defoultContent();
+
+
+
+
+
+
+
+ 	

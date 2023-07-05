@@ -1,0 +1,23 @@
+
+
+**********************************************
+1> Keywords used in BDD
+2> How to send GET Request (weatherAPI)
+
+URL  -  http://restapi.demoqa.com/utilities/weather/city/Hyderabad
+****************
+validations:    
+****************
+status code
+status line
+response body
+header
+**********************************************
+given()
+           set,cookies,add auth,add param, set headers info etc ...
+**************
+when()
+          get,post,put,delete...
+**************
+then()
+         validate status code, extract response, extract headers cookies & response body.....

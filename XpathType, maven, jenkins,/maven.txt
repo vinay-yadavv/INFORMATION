@@ -1,0 +1,26 @@
+deployment---build
+
+ant
+
+build Autometion tools
+
+.m2====local repository
+=====================
+
+google saurch--mvnRepository
+
+sentralRepository
+LOCALrEPOSIOTRY
+
+apache poi 
+
+dependency---- jar
+
+groupId
+
+artifactId
+
+plagin
+SELENIUM JAVA --- SELENIUM SERVER
+
+selenium sample pom.xml  

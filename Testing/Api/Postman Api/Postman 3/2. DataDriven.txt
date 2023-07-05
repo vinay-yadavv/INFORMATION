@@ -1,0 +1,8 @@
+1> we open EXCEL and write down 'data' and 'save' 'csv' file
+2> go to postman and select any post request
+3> go to 'body' after go to 'row' and select 'JSON' formet
+4> set variable
+5> write click your 'collection' then click on 'run collection'
+6> select Iterations --
+7> Delay  ----select 'time' run 
+8> Data 'select file' click then open file and select 'csv file'

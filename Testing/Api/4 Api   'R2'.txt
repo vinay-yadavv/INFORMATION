@@ -1,0 +1,16 @@
+1> using API we are use postman tools
+2> developer make apis send tester
+3> coillection- developer send collection for tester
+4> all apis with deffrent-2 'URL' or 'URI'
+5> EndPoint-
+6> pathParameter-
+7> BaseUrl-
+8> QueryParameter-
+9> GET-
+10> post
+11> PUT
+12> DELETE
+13> PATCH
+11> http-(hyper Text Transfer protocol)
+12> https-()
+13> encrypt=decrypt

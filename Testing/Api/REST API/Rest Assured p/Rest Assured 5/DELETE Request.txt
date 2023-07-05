@@ -1,0 +1,6 @@
+API Testing using RestAssured 
+BDD -- Behevior Driven Development Approach
+_______________________________________
+How to send delete request
+
+url  -

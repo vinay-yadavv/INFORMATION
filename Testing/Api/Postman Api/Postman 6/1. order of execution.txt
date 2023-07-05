@@ -1,0 +1,9 @@
+we create a collection  -> in this collection we create folder   ->    in this folder we create request(method)
+ -->  we go to collection__console.log("collection level script");   -> we go to folder  -> pri-reqres script  ->
+console.log("folder level pre-reqres script");   --->  we go to reqres(method)  -->go to pri-requrest script
+  -->  console.log("reqres level script");   --->  then go to collection  three doat(.)  click  -->click run collection then click on run button
+
+
+then open console   --->   see buityful massage
+***************************************
+using 'tests' --> this is my work

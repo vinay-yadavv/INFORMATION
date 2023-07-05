@@ -1,0 +1,26 @@
+1> a callection there are multiple api's.
+2> IMPORT
+3> Authentication
+4> Authrorization
+5> OAaarth2.O->API Sequity Implimented
+6> Client ID
+7> Client Secret(secret key)
+8> Security Token
+9> post Request
+10> AccessToken
+11> In this GET case we not send JSON but POST,PUT,PATCH we send json
+12> In this GET only URL
+13> In this POST JSON and URL both
+14> Headers
+15> Content Type=JSON
+16> Content Type=XML
+17> Content Type=html
+18> Content Type=xml/json
+19> new data create/insert according to post
+20> PUT   -update data
+21> patch -update data
+22> DELETE-delete data
+23> PUT   -{}
+24> POST  -{}
+25> PATCH -{}
+26> required=mandtory=optional

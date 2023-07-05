@@ -1,0 +1,20 @@
+BDD(Behavior-driven development)
+
+*> what is BDD?
+->Telling the valevier of you r software
+->how it is driven and how it is develop *
+
+*****************
+
+*features-> Login gmail funtionality test
+
+*Scenario
+
+*Scenario Outline->
+when user enter<username> and enter<password>
+                   Example
+                   |username|password |
+                   |vinay   |vinay1231|
+
+**************************************
+features.file same name create step definetion

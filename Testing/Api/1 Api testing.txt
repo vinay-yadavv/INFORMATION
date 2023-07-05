@@ -1,0 +1,106 @@
+Q> why do api testing?
+->  API testing is important for ensuring (confirm)
+    the way an application requests services from the
+    operating system (OS) or other applications.
+
+
+
+Q> what is API?
+-> By testing the API, you are examining the security,
+   functionality, reliability, and performance of your system.
+   Instead of testing with standard inputs and outputs,
+   API testing has the ability to get output directly
+   from the programming interface and take note of how it’s responding.
+   Instead of the simplicity of UI tests that focus more on the look and
+   feel of applications, API testing has a deeper, more thorough understanding
+   of how the architecture is built and works. 
+
+In short, API testing is a smart move for general quality performance and data response. 
+
+
+
+Q> Type of API?
+-> There are specific classifications of API testing
+ to determine the performance of your system, such as:
+
+Functional Testing. This involves testing functions within the codebase to determine if the API functions are working well within specific hardware parameters.
+Validation Testing. The validation process occurs in the final stretch of the development process, validating that the correct steps down the path of development have been made. 
+UI/Visual Testing. This focuses on how well the user interface is working, giving a status check on the visual aspects like the position and colors of elements. 
+Security Testing. A process that checks to ensure the system is secure with encryption methodologies and authorization validation. 
+Load Testing.  Load tests place real-world simulations and conditions for the SUT (System Under Test) to run against.
+Runtime and Error Detection. This process focuses on monitoring, execution errors, error detection, and resource leaks. 
+Penetration Testing. These vulnerability scans  take in a security experts perspective to spot potential loop holes and threats.
+Fuzz Testing. This process involves placing random data in the system to detect forced crashes and other irregular behaviors.
+
+
+
+Q> what is Rest API?
+-> REST stands for REpresentational State Transfer.
+   It means when a RESTful API is called, the server will
+   transfer to the client a representation of the state of the requested resource.
+
+
+Q> what to test in APIs?
+-> API testing has the ability to improve test coverage and
+   efficiency, secure the system, and much more. Some of the
+   benefits of performing this type of test include: 
+
+
+
+Q> defferent beetween soup and rest.
+-> 
+
+
+Q> HTTP status codes?
+->-Successful responses
+   200 OK
+   201 Created
+   202 Accepted
+   203 Non-Authoritative Information
+   204 No Content
+   205 Reset Content
+   206 Partial Content
+
+--Redirection messages
+ 300 Multiple Choices
+ 301 Moved Permanently
+ 302 Found
+ 303 See Other
+ 304 Not Modified
+
+--Client error responses
+  400 Bad Request
+  401 Unauthorized
+  402 Payment Required Experimental
+  403 Forbidden
+  404 Not Found
+  405 Method Not Allowed
+  406 Not Acceptable
+
+--Server error responses
+  500 Internal Server Error
+  501 Not Implemented
+  502 Bad Gateway
+  503 Service Unavailable  
+  504 Gateway Timeout
+  505 HTTP Version Not Supported
+
+
+Q> HTTP method?
+-> 
+Get->   GET is used to collect information.
+post->  by using POST we get request.
+put->   by using put, we update our File.
+PATCH-> by using PATCH, we update in file basic funtion.
+DELETE->It is delete our file.
+head->
+connet->
+options->
+Trace->
+ 
+**********************************
+
+
+
+collections-->new-->collection-->new collection.get newRequest
+-->geturl --> chouse method(GET)
